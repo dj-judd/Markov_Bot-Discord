@@ -69,4 +69,5 @@ text = open_and_read_file(filenames)
 # Get a Markov chain
 chains = make_chains(text)
 
+# Making sure it works
 print(make_text(chains))
